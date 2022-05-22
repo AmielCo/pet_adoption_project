@@ -1,0 +1,20 @@
+.user-homepage__container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdVUFAboBJHUJQ1e9Whu4Q0EqUelLixjOeiQ&usqp=CAU);
+    background-position: center;
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.user-homepage__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

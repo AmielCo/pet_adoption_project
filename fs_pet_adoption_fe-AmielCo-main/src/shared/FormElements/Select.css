@@ -1,0 +1,61 @@
+.select-btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.select-btn:focus {
+    outline: none;
+}
+
+.select-btn:hover,
+.select-btn:active {
+    background: #ff4382;
+    border-color: #ff4382;
+}
+
+.select-btn--inverse {
+    background: transparent;
+    color: #ff0055;
+}
+
+.select-btn--inverse:hover,
+.select-btn--inverse:active {
+    color: white;
+    background: #ff0055;
+}
+
+.select-btn--danger {
+    background: #830000;
+    border-color: #830000;
+}
+
+.select-btn--danger:hover,
+.select-btn--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+}
+
+.select-btn:disabled,
+.select-btn:hover:disabled,
+.select-btn:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.select-btn--small {
+    font-size: 0.8rem;
+}
+
+.select-btn--big {
+    font-size: 1.5rem;
+}

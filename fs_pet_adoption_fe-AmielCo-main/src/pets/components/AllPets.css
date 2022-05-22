@@ -1,0 +1,11 @@
+.card-petList {
+    margin: 5rem;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 0.25rem;
+}
+
+.search-page {
+background-color: #ffb8d7;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCuu-98p_ig7peIRQm_UbofwMbtVN21bGXKg&usqp=CAU);
+    background-position: center;}

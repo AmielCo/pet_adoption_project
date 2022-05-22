@@ -1,0 +1,56 @@
+.c-searchbox {
+    position: relative;
+    width: 100%;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+    display:flex
+}
+.c-searchbox:focus {
+    outline: none;
+}
+
+.c-searchbox__input{
+    width: 100%;
+
+    font: inherit;
+    padding: 1rem;
+    border-radius: 0;
+
+justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbox__input{
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    position: relative;
+    width: 100%;
+    font: inherit;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    
+}
+
+.result-item {
+    min-height: 4rem;
+    padding: 3rem;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f8f8f8;
+margin:1rem;  
+    border: 3px solid #ff4382;
+
+    }
+
+
+

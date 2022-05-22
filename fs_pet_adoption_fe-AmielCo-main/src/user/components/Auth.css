@@ -1,0 +1,52 @@
+.authentication__header {
+    color: white;
+    text-align: center;
+}
+
+.authentication {
+    width: 90%;
+    max-width: 25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem auto;
+}
+
+.authentication form {
+    margin-bottom: 1rem;
+}
+
+.authentication__modal {
+    width: 100%;
+    max-width: 25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.authentication__modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        text-align: center;
+        background-image: url(https://northernvirginiamag.com/wp-content/uploads/2020/07/adopt-a-pet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        opacity: .9;
+        margin:0
+}
+
+.welcome__explanations{
+    margin-top:0.5rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCuu-98p_ig7peIRQm_UbofwMbtVN21bGXKg&usqp=CAU);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+            opacity: .95;
+}
+
